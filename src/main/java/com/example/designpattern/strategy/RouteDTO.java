@@ -1,4 +1,4 @@
-package strategy;
+package com.example.designpattern.strategy;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,7 +1,7 @@
-package strategy.core;
+package com.example.designpattern.strategy.core;
 
 import org.springframework.stereotype.Service;
-import strategy.RouteDTO;
+import com.example.designpattern.strategy.RouteDTO;
 
 @Service
 public interface RouteStrategy {

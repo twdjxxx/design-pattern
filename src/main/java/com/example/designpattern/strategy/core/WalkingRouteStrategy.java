@@ -1,8 +1,8 @@
-package strategy.core;
+package com.example.designpattern.strategy.core;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import strategy.RouteDTO;
+import com.example.designpattern.strategy.RouteDTO;
 
 @Component
 @RequiredArgsConstructor

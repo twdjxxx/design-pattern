@@ -1,9 +1,9 @@
-package strategy;
+package com.example.designpattern.strategy;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import strategy.core.RouteStrategy;
-import strategy.core.RouteStrategyProvider;
+import com.example.designpattern.strategy.core.RouteStrategy;
+import com.example.designpattern.strategy.core.RouteStrategyProvider;
 
 @Service
 @RequiredArgsConstructor
