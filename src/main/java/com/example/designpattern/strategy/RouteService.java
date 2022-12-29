@@ -9,7 +9,7 @@ import com.example.designpattern.strategy.core.RouteStrategyProvider;
 @RequiredArgsConstructor
 public class RouteService {
 
-    private RouteStrategyProvider routeStrategyProvider;
+    private final RouteStrategyProvider routeStrategyProvider;
 
     public RouteDTO calculateRoute(String transportationMedia) {
         RouteStrategy strategy = routeStrategyProvider.getStrategy(transportationMedia);
