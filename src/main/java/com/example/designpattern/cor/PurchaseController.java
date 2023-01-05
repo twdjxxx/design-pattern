@@ -10,11 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class PurchaseController {
 
-    private final PurchaseValidationService purchaseValidationService;
+    private final PurchaseService purchaseService;
 
     @PostMapping
     public PurchaseResultDTO purchase(PurchaseRequestDTO purchaseRequestDTO) {
-        purchaseValidationService.validate(purchaseRequestDTO);
-        return PurchaseResultDTO.success();
+        return purchaseService.purchase(purchaseRequestDTO);
     }
 }
