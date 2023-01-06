@@ -9,4 +9,5 @@ public class PurchaseRequestDTO {
     private String productId;
     private String userId;
     private String paymentPassword;
+    private String userAddress;
 }
